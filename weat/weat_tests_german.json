@@ -1,0 +1,674 @@
+{
+    "test1": {
+        "target_words": "Blumen vs. Insekten",
+        "attribute_words": "Angenehm vs. unangenehm",
+        "out_of_vocabularies": {
+            "word2vec": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+            },
+            "glove": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+
+            }
+        },
+        "X": [
+            "aster",
+            "Klee",
+            "Hyazinthe",
+            "Ringelblume",
+            "Mohn",
+            "Azalee",
+            "Krokus",
+            "iris",
+            "Orchidee",
+            "Rose",
+            "Blauglocke",
+            "Narzisse",
+            "Flieder",
+            "Stiefmütterchen",
+            "Tulpe",
+            "Hahnenfuß",
+            "Gänseblümchen",
+            "Lilie",
+            "Pfingstrose",
+            "Veilchen",
+            "Nelke",
+            "Gladiole",
+            "Magnolie",
+            "Petunie",
+            "zinnia"
+        ],
+        "Y": [
+            "Ameise",
+            "raupe",
+            "Floh",
+            "Heuschrecke",
+            "Spinne",
+            "Bettwanze",
+            "Tausendfüßler",
+            "Fliege",
+            "Maden",
+            "Vogelspinne",
+            "Biene",
+            "Schabe",
+            "Mücke",
+            "Stechmücke",
+            "Termite",
+            "Käfer",
+            "Grille",
+            "Hornisse",
+            "Motte",
+            "Wespe",
+            "Kriebelmücke",
+            "Libelle",
+            "Pferdebremse",
+            "Kakerlake",
+            "Rüsselkäfer"
+        ],
+        "A": [
+            "streicheln",
+            "Freiheit",
+            "Gesundheit",
+            "Liebe",
+            "Frieden",
+            "Freude",
+            "Freund",
+            "Himmel",
+            "treu",
+            "Freude",
+            "Diamant",
+            "sanft",
+            "ehrlich",
+            "Glück",
+            "Regenbogen",
+            "Diplom",
+            "Geschenk",
+            "Ehre",
+            "Wunder",
+            "Sonnenaufgang",
+            "Familie",
+            "glücklich",
+            "Lachen",
+            "Paradies",
+            "urlaub"
+        ],
+        "B": [
+            "Missbrauch",
+            "Absturz",
+            "Dreck",
+            "Mord",
+            "Krankheit",
+            "Unfall",
+            "Tod",
+            "Kummer",
+            "Gift",
+            "Gestank",
+            "Überfall",
+            "Unglück",
+            "Hass",
+            "verschmutzen",
+            "Tragödie",
+            "Scheidung",
+            "Knast",
+            "Armut",
+            "hässlich",
+            "Krebs",
+            "töten",
+            "verrotten",
+            "erbrechen",
+            "Qualen",
+            "Gefängnis"
+        ],
+        "word2vec_result": 1.54,
+        "glove_ergebnis": 1.50
+	},
+    "test2": {
+        "target_words": "Instrumente vs. Waffen",
+        "attribute_words": "Angenehm vs. Unangenehm",
+        "out_of_vocabularies": {
+            "word2vec": {
+                "X": [],
+                "Y": ["axe"],
+                "A": [],
+                "B": []
+            },
+            "glove": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+
+            }
+        },
+        "X": [
+            "Dudelsack",
+            "Cello",
+            "Gitarre",
+            "Laute",
+            "Posaune",
+            "Banjo",
+            "Klarinette",
+            "Mundharmonika",
+            "Mandoline",
+            "Trompete",
+            "Fagott",
+            "Trommel",
+            "Harfe",
+            "Oboe",
+            "Tuba",
+            "Glocke",
+            "Fiedel",
+            "Cembalo",
+            "Klavier",
+            "Bratsche",
+            "Bongo",
+            "Flöte",
+            "Horn",
+            "Saxophon",
+            "geige"
+        ],
+        "Y": [
+            "Pfeil",
+            "Keule",
+            "Waffe",
+            "Rakete",
+            "Speer",
+            "Axt",
+            "Dolch",
+            "Harpune",
+            "Pistole",
+            "Schwert",
+            "Klinge",
+            "Dynamit",
+            "Beil",
+            "Gewehr",
+            "Panzer",
+            "Bombe",
+            "Feuerwaffe",
+            "Messer",
+            "Schrotflinte",
+            "Tränengas",
+            "Kanone",
+            "Granate",
+            "Reizgas",
+            "Schleuder",
+            "Peitsche"
+        ],
+        "A": [
+            "streicheln",
+            "Freiheit",
+            "Gesundheit",
+            "Liebe",
+            "Frieden",
+            "Freude",
+            "Freund",
+            "Himmel",
+            "treu",
+            "Freude",
+            "Diamant",
+            "sanft",
+            "ehrlich",
+            "glücklich",
+            "Regenbogen",
+            "Diplom",
+            "Geschenk",
+            "Ehre",
+            "Wunder",
+            "Sonnenaufgang",
+            "Familie",
+            "glücklich",
+            "Lachen",
+            "Paradies",
+            "urlaub"
+        ],
+        "B": [
+            "Missbrauch",
+            "Absturz",
+            "Dreck",
+            "Mord",
+            "Krankheit",
+            "Unfall",
+            "Tod",
+            "Kummer",
+            "Gift",
+            "Gestank",
+            "Überfall",
+            "Unglück",
+            "Hass",
+            "verschmutzen",
+            "Tragödie",
+            "Scheidung",
+            "Knast",
+            "Armut",
+            "hässlich",
+            "Krebs",
+            "töten",
+            "verrotten",
+            "erbrechen",
+            "Qualen",
+            "Gefängnis"
+        ],
+        "word2vec_result": 1.63,
+        "glove_ergebnis": 1.53
+	},
+    "test3": {
+        "target_words": "Europäisch-amerikanische vs. afro-amerikanische Namen",
+        "attribute_words": "Angenehm vs. unangenehm",
+        "out_of_vocabularies": {
+            "word2vec": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+            },
+            "glove": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+            }
+        },
+        "X": [
+            "Peter", "Daniel", "Hans", "Thomas", "Andreas", "Martin", "Markus", "Michael", "Maria", "Anna", "Ursula", "Ruth", "Monika", "Elisabeth", "Verena", "Sandra"
+        ],
+        "Y": [
+            "Ladina", "Fatima", "Fatma", "Alma", "Soraya", "Svetlana", "Elif", "Vesna", "Mehmet", "Mustafa", "Aleksandar", "Mohamed", "Ibrahim", "Dragan", "Hasan", "Mohammad"
+        ],
+        "A": [
+            "Zärtlichkeit",
+            "Freiheit",
+            "Gesundheit",
+            "Liebe",
+            "Frieden",
+            "Freude",
+            "Freund",
+            "Himmel",
+            "treu",
+            "Freude",
+            "Diamant",
+            "sanft",
+            "ehrlich",
+            "glücklich",
+            "Regenbogen",
+            "Diplom",
+            "Geschenk",
+            "Ehre",
+            "Wunder",
+            "Sonnenaufgang",
+            "Familie",
+            "glücklich",
+            "Lachen",
+            "Paradies",
+            "Urlaub"
+        ],
+        "B": [
+            "Missbrauch",
+            "Absturz",
+            "Dreck",
+            "Mord",
+            "Krankheit",
+            "Unfall",
+            "Tod",
+            "Kummer",
+            "Gift",
+            "Gestank",
+            "Überfall",
+            "Unglück",
+            "Hass",
+            "verschmutzen",
+            "Tragödie",
+            "Bombe",
+            "Scheidung",
+            "Knast",
+            "Armut",
+            "hässlich",
+            "Krebs",
+            "böse",
+            "töten",
+            "verrotten",
+            "kotzen"
+        ],
+        "word2vec_result": 0.58,
+        "glove_ergebnis": 1.41
+    },
+    "test4": {
+        "target_words": "Europäisch-amerikanische vs. afro-amerikanische Namen",
+        "attribute_words": "Angenehm vs. unangenehm (aus (5))",
+        "out_of_vocabularies": {
+            "word2vec": {
+                "X": [
+                ],
+                "Y": [
+                ],
+                "A": [],
+                "B": []
+            },
+            "glove": {
+                "X": [
+                ],
+                "Y": [
+                ],
+                "A": [],
+                "B": []
+
+            }
+        },
+        "X": [
+            "Peter", "Daniel", "Hans", "Thomas", "Andreas", "Martin", "Markus", "Michael", "Maria", "Anna", "Ursula", "Ruth", "Monika", "Elisabeth", "Verena", "Sandra"
+        ],
+        "Y": [
+            "Ladina", "Fatima", "Fatma", "Alma", "Soraya", "Svetlana", "Elif", "Vesna", "Mehmet", "Mustafa", "Aleksandar", "Mohamed", "Ibrahim", "Dragan", "Hasan", "Mohammad"
+        ],
+        "A": [
+            "Zärtlichkeit",
+            "Freiheit",
+            "Gesundheit",
+            "Liebe",
+            "Frieden",
+            "Freude",
+            "Freund",
+            "Himmel",
+            "treu",
+            "Freude",
+            "Diamant",
+            "sanft",
+            "ehrlich",
+            "glücklich",
+            "Regenbogen",
+            "Diplom",
+            "Geschenk",
+            "Ehre",
+            "Wunder",
+            "Sonnenaufgang",
+            "Familie",
+            "glücklich",
+            "Lachen",
+            "Paradies",
+            "Urlaub"
+        ],
+        "B": [
+            "Missbrauch",
+            "Absturz",
+            "Dreck",
+            "Mord",
+            "Krankheit",
+            "Unfall",
+            "Tod",
+            "Kummer",
+            "Gift",
+            "Gestank",
+            "Überfall",
+            "Unglück",
+            "Hass",
+            "verschmutzen",
+            "Tragödie",
+            "Bombe",
+            "Scheidung",
+            "Knast",
+            "Armut",
+            "hässlich",
+            "Krebs",
+            "böse",
+            "töten",
+            "verrotten",
+            "kotzen"
+        ],
+        "word2vec_result": 1.24,
+        "glove_ergebnis": 1.50
+    },
+    "test5": {
+        "target_words": "Europäisch-amerikanische vs. afro-amerikanische Namen",
+        "attribute_words": "Angenehm vs. unangenehm (ab 9)",
+        "out_of_vocabularies": {
+            "word2vec": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+            },
+            "glove": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+
+            }
+        },
+        "X": [
+            "Peter", "Daniel", "Hans", "Thomas", "Andreas", "Martin", "Markus", "Michael", "Maria", "Anna", "Ursula", "Ruth", "Monika", "Elisabeth", "Verena", "Sandra"
+        ],
+        "Y": [
+            "Ladina", "Fatima", "Fatma", "Alma", "Soraya", "Svetlana", "Elif", "Vesna", "Mehmet", "Mustafa", "Aleksandar", "Mohamed", "Ibrahim", "Dragan", "Hasan", "Mohammad"
+        ],
+        "A": [
+            "Spass", "Liebe", "Frieden", "wunderbar", "Freude", "Lachen", "glücklich"
+        ],
+        "B": [
+            "Qual", "furchtbar", "schrecklich", "übel", "böse", "Krieg", "scheusslich", "Versagen"
+        ],
+        "word2vec_result": 0.72,
+        "glove_ergebnis": 1.28
+    },
+    "test6": {
+        "target_words": "Männliche vs. weibliche Namen",
+        "attribute_words": "Karriere vs. Familie",
+        "out_of_vocabularies": {
+            "word2vec": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+            },
+            "glove": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+
+            }
+        },
+        "X": [ 
+            "Peter", "Daniel", "Hans", "Thomas", "Andreas", "Martin", "Markus", "Michael"
+        ],
+        "Y": [
+            "Maria", "Anna", "Ursula", "Ruth", "Monika", "Elisabeth", "Verena", "Sandra"
+        ],
+        "A": [
+            "Führungskraft", "Verwaltung", "beruflich", "Konzern", "Gehalt", "Büro", "Geschäft", "Werdegang"
+        ],
+        "B": [
+            "Zuhause", "Eltern", "Kinder", "Familie", "Cousinen", "Ehe", "Hochzeit", "Verwandtschaft"
+        ],
+        "word2vec_result": 1.89,
+        "glove_ergebnis": 1.81
+    },
+    "test7": {
+        "target_words": "Mathe vs. Kunst",
+        "attribute_words": "Männliche vs. weibliche Begriffe",
+        "out_of_vocabularies": {
+            "word2vec": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+            },
+            "glove": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+
+            }
+        },
+        "X": [
+            "Mathematik", "Algebra", "Geometrie", "Calculus", "Gleichungen", "Berechnung", "Zahlen", "Addition"
+        ],
+        "Y": [
+            "Poesie", "Kunst", "Tanz", "Literatur", "Roman", "Symphonie", "Drama", "Skulptur"
+        ],
+        "A": [
+            "männlich", "Mann", "Junge", "Bruder", "Sohn"
+        ],
+        "B": [
+            "weiblich", "Frau", "Mädchen", "Schwester", "Tochter"
+        ],
+        "word2vec_result": 0.97,
+        "glove_ergebnis": 1.06
+    },
+    "test8": {
+        "target_words": "Wissenschaft vs. Kunst",
+        "attribute_words": "Männliche vs. weibliche Begriffe",
+        "out_of_vocabularies": {
+            "word2vec": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+            },
+            "glove": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+
+            }
+        },
+        "X": [
+            "Wissenschaft", "Technologie", "Physik", "Chemie", "Einstein", "NASA", "Experiment", "Astronomie"
+        ],
+        "Y": [
+            "Poesie", "Kunst", "Shakespeare", "Tanz", "Literatur", "Roman", "Symphonie", "Drama"
+        ],
+        "A": [
+            "Bruder", "Vater", "Onkel", "Grossvater", "Sohn"
+        ],
+        "B": [
+            "Schwester", "Mutter", "Tante", "Grossmutter", "Tochter"
+        ],
+        "word2vec_result": 0.97,
+        "glove_ergebnis": 1.06
+    },
+    "test9": {
+        "target_words": "Psychische vs. physische Krankheit",
+        "attribute_words": "Vorübergehend vs. dauerhaft",
+        "out_of_vocabularies": {
+            "word2vec": {
+                "X": [],
+                "Y": [],
+                "A": ["kurzfristig"],
+                "B": []
+            },
+            "glove": {
+                "X": [],
+                "Y": [],
+                "A": ["kurz"],
+                "B": []
+
+            }
+        },
+        "X": [
+            "traurig",
+            "hoffnungslos",
+            "düster",
+            "weinerlich",
+            "unglücklich",
+            "deprimiert"
+        ],
+        "Y": [
+            "krank", 
+            "Krankheit",
+            "Grippe",
+            "Krankheit",
+            "Virus",
+            "Krebs"
+        ],
+        "A": [
+            "unbeständig",
+            "unbeständig",
+            "veränderlich",
+            "flüchtig",
+            "kurz",
+            "kurzfristig",
+            "kurz",
+            "gelegentlich"
+        ],
+        "B": [
+            "stabil",
+            "immer",
+            "konstant",
+            "anhaltend",
+            "chronisch",
+            "lang anhaltend",
+            "für immer"
+        ],
+        "word2vec_result": 1.30,
+        "glove_ergebnis": 1.38
+    },
+    "test10": {
+        "target_words": "Namen von jungen vs. alten Menschen",
+        "attribute_words": "Angenehm vs. unangenehm",
+        "out_of_vocabularies": {
+            "word2vec": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+            },
+            "glove": {
+                "X": [],
+                "Y": [],
+                "A": [],
+                "B": []
+
+            }
+        },
+        "X": [
+            "Tiffany",
+            "Michelle",
+            "Cindy",
+            "Kristy",
+            "Brad",
+            "Eric",
+            "Joey",
+            "Billy"
+        ],
+        "Y": [
+            "Ethel",
+            "Bernice",
+            "Gertrude",
+            "Agnes",
+            "Cecil",
+            "Wilbert",
+            "Mortimer",
+            "Edgar"
+        ],
+        "A": [
+            "Freude",
+            "Liebe",
+            "Frieden",
+            "wunderbar",
+            "Freude",
+            "Freund",
+            "Lachen",
+            "glücklich"
+        ],
+        "B": [
+            "Agonie",
+            "schrecklich",
+            "furchtbar",
+            "böse",
+            "böse",
+            "Krieg",
+            "furchtbar",
+            "Versagen"
+        ],
+        "word2vec_result": -0.08,
+        "glove_result": 1.21
+    }
+}

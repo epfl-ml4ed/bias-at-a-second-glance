@@ -2,6 +2,8 @@
 
 Instructions to download data files are found in [the data folder](data/), with one file for each year of peer-reviews.
 
+The German translations of WEAT tests are found in [the weat folder](weat/).
+
 This code is not in its final version and requires further cleaning and documentation before public release.
 
 To conduct WEAT co-occurence analysis, use the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb).
