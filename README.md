@@ -9,19 +9,11 @@ In this work, we analyze bias across text and through multiple architectures on 
 
 ![image](https://user-images.githubusercontent.com/72170466/191957442-8f970ae7-9bfe-4f31-a0b3-9fb579bf8949.png)
 
-## Repository Structure
+**Data**: Instructions to download data files are found in [the data folder](data/), with one file for each year of peer-reviews.
 
-### Data
+**Bias Analysis**: To conduct WEAT co-occurence analysis, use the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb). The German translations of WEAT tests are found in [the weat folder](weat/).
 
-Instructions to download data files are found in [the data folder](data/), with one file for each year of peer-reviews.
-
-### Bias Analysis
-
-To conduct **WEAT co-occurence analysis**, use the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb). The German translations of WEAT tests are found in [the weat folder](weat/).
-
-### Training Embedding Models
-
-To train a **GloVE model**, run the relevant parts of the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb) and run the bash script [GloVe training](code/GloVe_training.sh).
+**Training Embedding Models**: To train a GloVE model, run the relevant parts of the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb) and run the bash script [GloVe training](code/GloVe_training.sh).
 
 ### Fine-Tuning German Language Models
 
