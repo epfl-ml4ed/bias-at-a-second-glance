@@ -7,7 +7,7 @@ Peer-Review Data Modeling"](https://arxiv.org/pdf/2209.10335.pdf) written by Thi
 
 In this work, we analyze bias across text and through multiple architectures on a corpus of 9,165 German peer-reviews collected from university students over five years. Notably, our corpus includes labels such as helpfulness, quality, and critical aspect ratings from the peer-review recipient as well as demographic attributes. We conduct a Word Embedding Association Test (WEAT) analysis on (1) our collected corpus in connection with the clustered labels, (2) the most common pre-trained German language models (T5, BERT, and GPT-2) and GloVe embeddings, and (3) the language models after fine-tuning on our collected data-set. In contrast to our initial expectations, we found that our collected corpus does not reveal many biases in the co-occurrence analysis or in the GloVe embeddings. However, the pre-trained German language models find substantial conceptual, racial, and gender bias and have significant changes in bias across conceptual and racial axes during fine-tuning on the peer-review data. With our research, we aim to contribute to the fourth UN sustainability goal (quality education) with a novel dataset, an understanding of biases in natural language education data, and the potential harms of not counteracting biases in language models for educational tasks.
 
-![image](https://user-images.githubusercontent.com/72170466/191958240-4efc611a-2253-43ce-92cf-c7d39a7c2603.png)
+![image](https://user-images.githubusercontent.com/72170466/191958303-76184d17-4b2b-4ec2-8e5b-5a52c15cd6a3.png)
 
 **Data**: Instructions to download data files are found in [the data folder](data/), with one file for each year of peer-reviews.
 
