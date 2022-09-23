@@ -7,7 +7,7 @@ Peer-Review Data Modeling"](https://arxiv.org/pdf/2209.10335.pdf) written by Thi
 
 In this work, we analyze bias across text and through multiple architectures on a corpus of 9,165 German peer-reviews collected from university students over five years. Notably, our corpus includes labels such as helpfulness, quality, and critical aspect ratings from the peer-review recipient as well as demographic attributes. We conduct a Word Embedding Association Test (WEAT) analysis on (1) our collected corpus in connection with the clustered labels, (2) the most common pre-trained German language models (T5, BERT, and GPT-2) and GloVe embeddings, and (3) the language models after fine-tuning on our collected data-set. In contrast to our initial expectations, we found that our collected corpus does not reveal many biases in the co-occurrence analysis or in the GloVe embeddings. However, the pre-trained German language models find substantial conceptual, racial, and gender bias and have significant changes in bias across conceptual and racial axes during fine-tuning on the peer-review data. With our research, we aim to contribute to the fourth UN sustainability goal (quality education) with a novel dataset, an understanding of biases in natural language education data, and the potential harms of not counteracting biases in language models for educational tasks.
 
-![image](https://user-images.githubusercontent.com/72170466/191957442-8f970ae7-9bfe-4f31-a0b3-9fb579bf8949.png)
+![process](https://user-images.githubusercontent.com/72170466/191957897-dd054b59-a5ba-4883-8d1a-565e83d928fd.png)
 
 **Data**: Instructions to download data files are found in [the data folder](data/), with one file for each year of peer-reviews.
 
@@ -15,9 +15,7 @@ In this work, we analyze bias across text and through multiple architectures on 
 
 **Training Embedding Models**: To train a GloVE model, run the relevant parts of the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb) and run the bash script [GloVe training](code/GloVe_training.sh).
 
-### Fine-Tuning German Language Models
-
-German Language models were obtained directly from HuggingFace ([BERT](https://huggingface.co/bert-base-german-cased), [T5](https://huggingface.co/ml6team/mt5-small-german-finetune-mlsum), [GPT-2](https://huggingface.co/dbmdz/german-gpt2)).
+**Fine-Tuning German Language Models**: German Language models were obtained directly from HuggingFace ([BERT](https://huggingface.co/bert-base-german-cased), [T5](https://huggingface.co/ml6team/mt5-small-german-finetune-mlsum), [GPT-2](https://huggingface.co/dbmdz/german-gpt2)).
 
 To finetune **German BERT**:
 1. Run the relevant parts of the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb).
@@ -30,7 +28,6 @@ To finetune **German T5**:
 To finetune **German GPT-2**: 
 1. Run the relevant parts of the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb).
 2. Run the [GPT-2 finetuning notebook](code/GPT2_finetuning.ipynb).
-
 
 ## Contributing 
 
