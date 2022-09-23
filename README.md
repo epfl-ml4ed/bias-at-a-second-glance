@@ -21,13 +21,19 @@ To train a **GloVE model**, run the relevant parts of the [WEAT Analysis noteboo
 
 ## Fine-Tuning German Language Models
 
-German Language models were obtained directly from HuggingFace ([BERT](https://huggingface.co/bert-base-german-cased), [T5](), [GPT-2](https://huggingface.co/dbmdz/german-gpt2)).
+German Language models were obtained directly from HuggingFace ([BERT](https://huggingface.co/bert-base-german-cased), [T5](https://huggingface.co/ml6team/mt5-small-german-finetune-mlsum), [GPT-2](https://huggingface.co/dbmdz/german-gpt2)).
 
-To finetune **German BERT**, run the relevant parts of the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb) and run the [BERT finetuning notebook](code/BERT_finetuning.ipynb).
+To finetune **German BERT**:
+1. Run the relevant parts of the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb).
+2. Run the [BERT finetuning notebook](code/BERT_finetuning.ipynb).
 
-To finetune **German T5**, run the relevant parts of the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb) and run the [T5 finetuning notebook](code/T5_finetuning.ipynb).
+To finetune **German T5**:
+1. Run the relevant parts of the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb).
+2. Run the [T5 finetuning notebook](code/T5_finetuning.ipynb).
 
-To finetune **German GPT-2**, run the relevant parts of the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb) and run the [GPT-2 finetuning notebook](code/GPT2_finetuning.ipynb).
+To finetune **German GPT-2**: 
+1. Run the relevant parts of the [WEAT Analysis notebook](code/WEAT_analysis_peer_reviews.ipynb).
+2. Run the [GPT-2 finetuning notebook](code/GPT2_finetuning.ipynb).
 
 ### Credit
 
