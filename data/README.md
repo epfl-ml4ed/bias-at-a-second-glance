@@ -2,7 +2,7 @@
 
 **Note (23.09.2022):** Data will be released in the coming weeks.
 
-Data files can be downloaded from this [form](data/) and are released under a non-commercial license. Place the files directly in this folder (`\data`).  
+Data files can be downloaded by filling out this [form](https://forms.gle/SCqRuJG6PDN9bcdt5) and are released under a non-commercial license. Place the files directly in this folder (`\data`).  
 
 The five provided files are:
 - `reviews_2015.csv`
