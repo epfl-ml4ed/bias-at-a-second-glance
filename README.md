@@ -1,7 +1,7 @@
 # Bias at a Second Glance
 
 This repository is the official implementation of the COLING 2022 paper entitled ["Bias at a Second Glance: A Deep Dive into Bias for German Educational
-Peer-Review Data Modeling"](https://arxiv.org/pdf/2209.10335.pdf) written by Thiemo Wambsganss, Vinitra Swamy, Roman Rietsche, and Tanja Käser. 
+Peer-Review Data Modeling"](https://arxiv.org/pdf/2209.10335.pdf) written by Thiemo Wambsganss*, Vinitra Swamy*, Roman Rietsche, and Tanja Käser. 
 
 ## Project Overview
 
